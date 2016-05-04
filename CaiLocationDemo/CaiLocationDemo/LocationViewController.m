@@ -119,7 +119,7 @@
     UIAlertAction *cancle = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
     
     [alert addAction:cancle];
-    
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 - (void)locationButtonAction
